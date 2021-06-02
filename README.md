@@ -1,2 +1,3 @@
 Ansible code repository
-All ansible playbook referred in my YouTube channel is available here.
+Ansible server in savoirs-ajoutes.fr domain
+Server used for automation inside windows servers
