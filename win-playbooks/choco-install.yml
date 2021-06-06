@@ -1,0 +1,7 @@
+- hosts: MDT
+  gather_facts: no
+  tasks:
+   - name: Install Chocolatey on MDT server
+     win_chocolatey: name=procexp state=present
+
+

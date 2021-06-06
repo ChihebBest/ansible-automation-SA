@@ -1,0 +1,7 @@
+- hosts: AD
+  gather_facts: no
+  tasks:
+   - name: Install Putty on Windows-Server
+     putty: name=procexp state=present
+
+

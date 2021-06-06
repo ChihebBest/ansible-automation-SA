@@ -1,12 +1,17 @@
-node1
-node2
+[AD]
+192.168.2.242
 
-[windows]
-MDT1
-
-[windows:vars]
+[AD:vars]
 ansible_user=chiheb-bestaoui
-ansible_password="CB@2021SA"
-ansible_port=5986
+ansible_password=CB@2021SA
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+[MDT]
+192.168.2.238
+
+[MDT:vars]
+ansible_user=Administrateur
+ansible_password=P@ssw0rd!
 ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore

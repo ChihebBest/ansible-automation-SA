@@ -1,5 +1,5 @@
 ---
-- hosts: MDT1
+- hosts: MDT
   tasks:
   - name: Install firefox,winscp,curl
     win_chocolatey:
@@ -9,5 +9,3 @@
     - firefox
     - curl
     - winscp
-    - openssh
-    - chrome
