@@ -1,5 +1,5 @@
 ---
-- hosts: MDT
+- hosts: AD
   tasks:
   - name: Install firefox,winscp,curl
     win_chocolatey:
