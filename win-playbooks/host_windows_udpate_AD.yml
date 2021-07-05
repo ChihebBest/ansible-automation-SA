@@ -1,4 +1,6 @@
----
+# PR shell AD
+
+
 - hosts: AD
   tasks:
   - name: set the default shell to PowerShell
