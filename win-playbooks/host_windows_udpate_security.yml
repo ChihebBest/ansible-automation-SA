@@ -1,0 +1,31 @@
+---
+- hosts: AD
+  tasks:
+    - name: Install all security
+      ansible.windows.win_updates:
+      category_names:
+        - SecurityUpdates
+        - CriticalUpdates
+        - UpdateRollups
+      
+      
+- hosts: MDT
+  tasks:
+    - name: Install all security
+      ansible.windows.win_updates:
+      category_names:
+        - SecurityUpdates
+        - CriticalUpdates
+        - UpdateRollups
+      
+    
+- hosts: User_student_1
+  tasks:
+    - name: Install all security
+      ansible.windows.win_updates:
+      category_names:
+        - SecurityUpdates
+        - CriticalUpdates
+        - UpdateRollups
+      
+      
